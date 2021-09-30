@@ -1,83 +1,105 @@
 
-###### mail : montblancchings@gmail.com
 
-# 소개
-* 이름 : 송형수
-* 나이 : 32세
-* 취미 : 시뮬레이션 게임 [ex: 스타듀벨리, 돈스타브, 테라리아]
+### 소개
 
-# 현재
-+ 개인 프로젝트를 위해 공부 중
-	+ Vapor
-	+ Postgresql
-	+ Swift UI
+- 안녕하세요 주니어 iOS개발자 입니다.
+- mail : montblancchings@gmail.com
+
+
+# 경력
+##### 2019.01 ~ 2021.06 : 에브리플레이
+##### 2017.01 ~ 2017.12 : Je.vinci 3인 스타트업
 
 
 # 프로젝트
-+ ### 쌤카페 
-	+ 역할 : 개발 및 출시
+
++ ### 쌤카페
+	+ 소개 : 제휴된 스터디 카페 예약 및 출입을 도와주는 앱
 	+ Link : [SSAMCAFE][ssamcafe Link]
 	+ [SSAMCAFE App][ssamcafe App Link]
+	<details markdown="1"><summary> 내용 펼치기</summary>	<div markdown="1">
+
+	 담당업무 : iOS 개발 및 출시
+
+		+ Custom TabBar 구현
+			- 텝 내부의 Text 가로길이에 따른 underline Animation 적용
+		+ Custom Naviagtion Controller 구현
+			- WKWebView와 ViewController의 화면 흐름 제어를 일괄적으로 하기위해.
+		+ Common WKWebView
+			- JavaScript Handler
+			- 네트워크 상태에 따른, 오류 Handling 개발
+
+	</div>
+	</details>
+
 
 [ssamcafe Link]: https://www.ssamcafe.com/introduce.do
-[ssamcafe App Link]: https://apps.apple.com/kr/app/쌤카페/id1524424272?app=itunes&ign-mpt=uo%3D4
+[ssamcafe App Link]: https://apps.apple.com/kr/app/쌤카페/id1524424272?app=itunes&ign-mpt=uo%
+
+
 
 + ### 에브리핏
-	+ 역할 : 유지보수, 기능 개발
+	+ 소개 : 제휴된 운동, 뷰티 매장의 상품 구매 및 이용권을 통한 출입 관리, 만보기 기능 제공
 	+ Link : [EVERYFIT][everyfit Link]
 	+ [EVERYFIT App][everyfit App Link]
+
+	<details markdown="1"><summary> 내용 펼치기</summary>	<div markdown="1">
+
+	 담당업무 : iOS 개발 및 관리
+
+		+ UI개편
+			- View와 데이터 로직 분리 [MVC -> MVVM]
+		+ Custom Navigation Controller 개발
+			- 앱 특성에 맞게 화면 관리
+		+ Smatro Offline PG결제 데이터 송수신을 위한 Module 개발
+		+ Firebase Dynamic Link 적용
+			- Universal Link + Device Clibboard
+		+ 네트워크 상태에 따른 오류 Handling 개발
+
+	</div>
+	</details>
 
 [everyfit Link]: https://mg.everyfit.co.kr
 [everyfit App Link]: https://apps.apple.com/kr/app/에브리핏-운동-뷰티에-안심을-더하다/id1179617615
 
+
+
+
 + ### 피카플레이
-	+ 역할 : 유지보수, 기능 개발
+	+ 소개 : 제휴된 PC방 이용을 앱을 통해 가능하게 도와주는 앱입니다.
 	+ Link : [PICAPLAY][picaplay Link]
 	+ [PICAPLAY App][picaplay App Link]
+	<details markdown="1"><summary> 내용 펼치기</summary>	<div markdown="1">
+
+	 담당업무 : iOS 개발 및 관리
+
+		+ Legacy한 로딩 프로세스 개선
+		+ FaceID를 통한 피카페이 인증 절차 추가
+		+ Clibboard를 활용한 자체 추천인 기능 개발
+
+	</div>
+	</details>
 
 [picaplay Link]: https://www.picaplay.com
 [picaplay App Link]: https://apps.apple.com/kr/app/피카플레이/id1434266163
 
+#
 
-# 경력
-##### 2021년 6월 30일 퇴사
+### 활용한 오픈 소스, 분석 툴, 협업 툴
++ Firebase
+	+ Dynamic Link
+	+ GA
+	+ Cloud Messaging
+	+ Authentification
+	+ Crashlytics
++ GoogleMaps
++ Realm
++ Alamofire
++ Kingfisher
++ Git
 
 
-##### 2021년 상반기
-	+ [에브리핏 iOS]
-		- 오프라인 PG결제 모듈 개발 및 적용
-		- Firebase Dynamic Link 적용
-##### 2020년 하반기
-	+ [SSAMCAFE iOS 출시]
-		- MVVM 패턴
-		- Alamofire
-		- AutoLayout
-		- Hybrid app
-##### 2020년 상반기
-	+ [에브리핏 iOS]
-		- 앱 개편
-		- 부분적 MVVM 패턴 적용
-		- Alamofire
-		- Hybrid app
-		- AutoLayout
-		- APNS
-		- Realm
-		- Analytics 
-	+ [피카플레이 iOS]
-		- 유지 보수
-##### 2019년
-	+ [에브리핏 iOS]
-		- 개발 및 관리
-	+ [피카플레이 iOS]
-		- 클립보드를 활용한 추천인 기능 개발
 
-##### 2017년
-	- 3인 스타트업 Je.vinci
-	- 도보 네비게이션 개발 진행 중 해체
+### 수상
 
-##### 2016년
-	+ Cisco 라우터를 통한 네트워킹 설계 및 구축
-
-##### 2015년
-	+ 부경대학교 IT융합응용공학과 졸업
-
++ 2017 해커톤 입상 - 현대자동차 : 도보 여행자들을 위한 네비게이션 iOS 앱 [Google Maps, T Map API 활용]
